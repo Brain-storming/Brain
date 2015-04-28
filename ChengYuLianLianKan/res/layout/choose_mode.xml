@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/modebg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/choose_mode_modeanima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="90dp"
+        android:background="@anim/modeanima" />
+
+    <ImageView
+        android:id="@+id/choose_mode_zfdm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="140dp"
+        android:layout_toRightOf="@+id/choose_mode_modeanima"
+        android:background="@drawable/zfdm_button" />
+
+    <ImageView
+        android:id="@+id/choose_mode_xlxf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choose_mode_zfdm"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@+id/choose_mode_modeanima"
+        android:background="@drawable/xlxf_button" />
+
+    <ImageView
+        android:id="@+id/choose_mode_zzsf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choose_mode_xlxf"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@+id/choose_mode_modeanima"
+        android:background="@drawable/zzsf_button" />
+
+    <ImageView
+        android:id="@+id/choose_mode_friendlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choose_mode_zzsf"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@+id/choose_mode_modeanima"
+        android:background="@drawable/friendlist_button" />
+
+    <ImageView
+        android:id="@+id/choose_mode_xitong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choose_mode_modeanima"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/xitong_button" />
+
+    <ImageView
+        android:id="@+id/choose_mode_bangzhu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choose_mode_modeanima"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/choose_mode_xitong"
+        android:background="@drawable/help_button" />
+
+    <ImageView
+        android:id="@+id/choose_mode_shangcheng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choose_mode_modeanima"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/choose_mode_bangzhu"
+        android:background="@drawable/shangcheng_button" />
+
+    <ImageView
+        android:id="@+id/choose_mode_fanhui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choose_mode_modeanima"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/choose_mode_shangcheng"
+        android:background="@drawable/back_button" />
+
+</RelativeLayout>

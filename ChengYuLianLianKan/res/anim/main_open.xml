@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/open_woid1"
+        android:duration="150">
+    </item>
+    <item
+        android:drawable="@drawable/open_woid2"
+        android:duration="150">
+    </item>
+    <item
+        android:drawable="@drawable/open_woid3"
+        android:duration="150">
+    </item>
+    <item
+        android:drawable="@drawable/open_woid4"
+        android:duration="150">
+    </item>
+    <item
+        android:drawable="@drawable/open_woid5"
+        android:duration="150">
+    </item>
+    <item
+        android:drawable="@drawable/open_woid6"
+        android:duration="150">
+    </item>
+    <item
+        android:drawable="@drawable/open_woid7"
+        android:duration="150">
+    </item>
+    <item
+        android:drawable="@drawable/open_woid8"
+        android:duration="150">
+    </item>
+
+</animation-list>

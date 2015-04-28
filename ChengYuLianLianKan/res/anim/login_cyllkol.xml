@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/log_in_word1"
+        android:duration="200">
+    </item>
+    <item
+        android:drawable="@drawable/log_in_word2"
+        android:duration="200">
+    </item>
+    <item
+        android:drawable="@drawable/log_in_word3"
+        android:duration="200">
+    </item>
+    <item
+        android:drawable="@drawable/log_in_word4"
+        android:duration="200">
+    </item>
+    <item
+        android:drawable="@drawable/log_in_word5"
+        android:duration="200">
+    </item>
+    <item
+        android:drawable="@drawable/log_in_word6"
+        android:duration="200">
+    </item>
+    <item
+        android:drawable="@drawable/log_in_word7"
+        android:duration="200">
+    </item>
+
+</animation-list>

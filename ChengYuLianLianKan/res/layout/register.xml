@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/reg_cyllkol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@anim/login_cyllkol" />
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/login_textbg"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="5dp"
+                android:src="@drawable/username_text" />
+
+            <EditText
+                android:id="@+id/reg_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/edittext_bg"
+                android:hint="@string/input_username"
+                android:paddingLeft="8dp"
+                android:singleLine="true"
+                android:textColorHint="#404040" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="5dp"
+                android:src="@drawable/password_text" />
+
+            <EditText
+                android:id="@+id/reg_pwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/edittext_bg"
+                android:hint="@string/input_password"
+                android:inputType="textPassword"
+                android:paddingLeft="8dp"
+                android:singleLine="true"
+                android:textColorHint="#404040" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="5dp"
+                android:src="@drawable/repassword_text" />
+
+            <EditText
+                android:id="@+id/reg_repwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/edittext_bg"
+                android:hint="@string/input_repassword"
+                android:inputType="textPassword"
+                android:paddingLeft="8dp"
+                android:singleLine="true"
+                android:textColorHint="#404040" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="25dp" >
+
+        <ImageButton
+            android:id="@+id/reg_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/register_confirm_btn_press" />
+
+        <ImageButton
+            android:id="@+id/reg_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/register_cancel_btn_press" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">成语连连看</string>
+	<string name="input_username">请输入用户名</string>
+	<string name="input_password">请输入密码</string>
+	<string name="input_repassword">请再次输入密码</string>
+	<string name="title_player_name">用户名</string>
+	<string name="title_player_rank">积分</string>
+	<string name="title_player_mani">操作</string>
+	<string name="info_playername">用户名：</string>
+	<string name="info_score">积分：</string>
+	<string name="info_zfdm">争分夺秒分：</string>
+	<string name="info_xlxf">狭路相逢分：</string>
+	<string name="info_zzsf">征战四方分：</string>
+	<string name="info_ka">提示卡个数：</string>
+	<string name="info_deng">醒目灯个数：</string>
+	<string name="friend_mani">好友操作</string>
+</resources>

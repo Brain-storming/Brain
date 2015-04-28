@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/modeanima0"
+        android:duration="200">
+    </item>
+    <item
+        android:drawable="@drawable/modeanima1"
+        android:duration="200">
+    </item>
+    <item
+        android:drawable="@drawable/modeanima2"
+        android:duration="200">
+    </item>
+    <item
+        android:drawable="@drawable/modeanima4"
+        android:duration="200">
+    </item>
+    <item
+        android:drawable="@drawable/modeanima5"
+        android:duration="200">
+    </item>
+    <item
+        android:drawable="@drawable/modeanima6"
+        android:duration="200">
+    </item>
+
+</animation-list>

@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/game_back3"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" >
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/game_zfdm_fen_bg" />
+
+        <TextView
+            android:id="@+id/zfdm_yonghu1"
+            android:layout_width="130dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="yonghu1"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/zfdm_jishu1"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/zfdm_shijian"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:background="@drawable/time_bg"
+            android:gravity="center"
+            android:text="∞"
+            android:textSize="40sp" />
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/game_zfdm_fen_bg" />
+
+        <TextView
+            android:id="@+id/zfdm_yonghu2"
+            android:layout_width="130dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="yonghu2"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/zfdm_jishu2"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+    </FrameLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/game_kuuai3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="40sp" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="70dp" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:gravity="right"
+            android:text="提示卡："
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tishika_textview"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="醒目灯："
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/xingmudeng_textview"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/zfdm_tishi_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/tishi" />
+
+        <Button
+            android:id="@+id/zfdm_xingmu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/xingmu" />
+
+        <Button
+            android:id="@+id/zfdm_shengyin_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/shengyin" />
+    </LinearLayout>
+
+</LinearLayout>

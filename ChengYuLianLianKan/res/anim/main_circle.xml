@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:drawable="@drawable/open_circle1"
+        android:duration="160">
+    </item>
+    <item
+        android:drawable="@drawable/open_circle2"
+        android:duration="160">
+    </item>
+    <item
+        android:drawable="@drawable/open_circle3"
+        android:duration="160">
+    </item>
+    <item
+        android:drawable="@drawable/open_circle4"
+        android:duration="160">
+    </item>
+    <item
+        android:drawable="@drawable/open_circle5"
+        android:duration="160">
+    </item>
+    <item
+        android:drawable="@drawable/open_circle6"
+        android:duration="160">
+    </item>
+    <item
+        android:drawable="@drawable/open_circle7"
+        android:duration="160">
+    </item>
+    <item
+        android:drawable="@drawable/open_circle8"
+        android:duration="160">
+    </item>
+
+</animation-list>

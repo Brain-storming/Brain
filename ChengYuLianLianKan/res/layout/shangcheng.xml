@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/shop_bg" 
+	android:layout_height="match_parent" 
+	android:layout_width="match_parent"  > 
+	 <FrameLayout 
+        android:id="@+id/fl_01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView 
+            android:id="@+id/shop_bganima"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shop_xingbg_anima"/>
+    </FrameLayout>
+	  	<RelativeLayout 
+	 	    android:background="@drawable/shop_djbg" 
+            android:layout_height="wrap_content"
+	  		android:layout_width="wrap_content" 
+	  		android:layout_marginTop="20dp" 
+	  		android:id="@+id/relativeLayout2" 
+	  		android:layout_below="@+id/imageMyshop" 
+	  		android:layout_alignLeft="@+id/relativeLayout1">
+	  		<ImageView 
+	  		    android:layout_height="wrap_content" 
+	  		    android:layout_width="wrap_content" 
+	  		    android:background="@drawable/shop_tishika" 
+	  		    android:id="@+id/imagetishika" 
+	  		    android:layout_marginLeft="12dp" 
+	  		    android:layout_centerVertical="true" 
+	  		    android:layout_alignParentLeft="true"/> 
+	  		<TextView 
+	  		    android:layout_height="wrap_content" 
+	  		    android:layout_width="90dp" 
+	  		    android:id="@+id/tsk"
+	  		    android:layout_marginLeft="5sp" 
+	  		    android:layout_centerVertical="true" 
+	  		    android:textColor="#FF1493"
+	  	        android:textSize="12sp" 
+	  	        android:layout_toRightOf="@+id/imagetishika"/>
+	  		<ImageView 
+	  		    android:layout_height="wrap_content" 
+	  		    android:layout_width="wrap_content" 
+	  		    android:background="@drawable/shop_xingmudeng" 
+	  		    android:id="@+id/imagexingmudeng" 
+	  		    android:layout_centerVertical="true" 
+	  		    android:layout_marginLeft="140sp"/>
+            <TextView 
+	  		    android:layout_height="wrap_content" 
+	  	        android:layout_width="90dp" 
+	  	        android:id="@+id/xmd" 
+	  		    android:layout_centerVertical="true"
+	  		    android:textColor="#FF1493" 
+	  		    android:textSize="12sp" 
+	  		    android:layout_marginLeft="5sp" 
+	  		    android:layout_toRightOf="@+id/imagexingmudeng"/>
+	  </RelativeLayout>
+
+	  		            <RelativeLayout
+	  		                android:id="@+id/relativeLayout1"
+	  		                android:layout_width="wrap_content"
+	  		                android:layout_height="wrap_content"
+	  		                android:layout_below="@+id/imageShop"
+	  		                android:layout_centerHorizontal="true"
+	  		                android:layout_marginTop="28dp"
+	  		                android:background="@drawable/shop_djbg" >
+
+	  		                <ImageView
+	  		                    android:id="@+id/tishika"
+	  		                    android:layout_width="wrap_content"
+	  		                    android:layout_height="wrap_content"
+	  		                    android:layout_alignParentLeft="true"
+	  		                    android:layout_centerVertical="true"
+	  		                    android:layout_marginLeft="12dp"
+	  		                    android:src="@drawable/shop_tishika" />
+
+	  		                <TextView
+	  		                    android:id="@+id/shuoming1"
+	  		                    android:layout_width="70dp"
+	  		                    android:layout_height="wrap_content"
+	  		                    android:layout_marginLeft="5sp"
+	  		                    android:layout_marginTop="10dp"
+	  		                    android:layout_toRightOf="@+id/tishika"
+	  		                    android:text="道具说明：可以帮助玩家提示一个成语里的两个汉字 "
+	  		                    android:textColor="#FF1493"
+	  		                    android:textSize="10sp" />
+
+	  		                <ImageView
+	  		                    android:id="@+id/xingmudeng"
+	  		                    android:layout_width="wrap_content"
+	  		                    android:layout_height="wrap_content"
+	  		                    android:layout_centerVertical="true"
+	  		                    android:layout_marginLeft="5sp"
+	  		                    android:layout_toRightOf="@+id/shuoming1"
+	  		                    android:src="@drawable/shop_xingmudeng" />
+
+	  		                <TextView
+	  		                    android:id="@+id/shuoming2"
+	  		                    android:layout_width="70dp"
+	  		                    android:layout_height="wrap_content"
+	  		                    android:layout_marginLeft="5sp"
+	  		                    android:layout_marginTop="10dp"
+	  		                    android:layout_toRightOf="@+id/xingmudeng"
+	  		                    android:text="道具说明：可以帮助玩家提供一个完整的成语 "
+	  		                    android:textColor="#FF1493"
+	  		                    android:textSize="10sp" />
+
+	  		                <ImageView
+	  		                    android:id="@+id/buyButton1"
+	  		                    android:layout_width="wrap_content"
+	  		                    android:layout_height="30sp"
+	  		                    android:layout_alignLeft="@+id/shuoming1"
+	  		                    android:layout_below="@+id/jiage"
+	  		                    android:background="@anim/buy" />
+
+	  		                <TextView
+	  		                    android:id="@+id/jiagetishi"
+	  		                    android:layout_width="70dp"
+	  		                    android:layout_height="wrap_content"
+	  		                    android:layout_above="@+id/buyButton1"
+	  		                    android:layout_toLeftOf="@+id/xingmudeng"
+	  		                    android:text=" 0.1元/个"
+	  		                    android:textColor="#FF1493"
+	  		                    android:textSize="10sp" />
+
+	  		                <ImageView
+	  		                    android:id="@+id/buyButton2"
+	  		                    android:layout_width="wrap_content"
+	  		                    android:layout_height="30sp"
+	  		                    android:layout_alignLeft="@+id/jiage"
+	  		                    android:layout_alignTop="@+id/buyButton1"
+	  		                    android:background="@anim/buy" />
+
+	  		                <TextView
+	  		                    android:id="@+id/jiage"
+	  		                    android:layout_width="70dp"
+	  		                    android:layout_height="wrap_content"
+	  		                    android:layout_alignLeft="@+id/shuoming2"
+	  		                    android:layout_below="@+id/shuoming1"
+	  		                    android:text=" 0.5元/个"
+	  		                    android:textColor="#FF1493"
+	  		                    android:textSize="10sp" />
+
+	  		          </RelativeLayout>
+	  		            <ImageView
+	  		                android:id="@+id/imageShop"
+	  		                android:layout_width="wrap_content"
+	  		                android:layout_height="wrap_content"
+	  		                android:layout_alignParentTop="true"
+	  		                android:layout_centerHorizontal="true"
+	  		                android:layout_marginTop="119dp"
+	  		                android:src="@drawable/shop_scdj" />
+
+	  		            <ImageView
+	  		                android:id="@+id/imageMyshop"
+	  		                android:layout_width="wrap_content"
+	  		                android:layout_height="wrap_content"
+	  		                android:layout_alignLeft="@+id/imageShop"
+	  		                android:layout_below="@+id/relativeLayout1"
+	  		                android:layout_marginTop="54dp"
+	  		                android:src="@drawable/shop_mydj" />
+
+ </RelativeLayout>
