@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--phone register-->
+    <LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent" android:id="@+id/register_layout1"
+    android:layout_height="match_parent">
+        <EditText
+            android:layout_width="match_parent" android:id="@+id/register_phone"
+            android:layout_height="30dp" android:hint="输入手机号："
+            android:layout_marginTop="15dp" android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" android:background="@drawable/edittext_bg"/>
+        <EditText
+            android:layout_width="match_parent" android:id="@+id/register_phone_password1"
+            android:layout_height="30dp" android:hint="密码："
+            android:layout_marginTop="10dp" android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" android:background="@drawable/edittext_bg"/>
+        <EditText
+            android:layout_width="match_parent" android:id="@+id/register_phone_password2"
+            android:layout_height="30dp" android:hint="确认密码："
+            android:layout_marginTop="10dp" android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" android:background="@drawable/edittext_bg"/>
+        <LinearLayout
+            android:layout_width="match_parent" android:orientation="horizontal"
+            android:layout_height="wrap_content"  android:layout_marginTop="10dp">
+            <EditText
+                android:layout_width="120dp" android:id="@+id/register_phone_identifying_code"
+                android:layout_height="30dp" android:layout_marginLeft="5dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:layout_width="wrap_content" android:id="@+id/register_phone_get_identifying_code"
+                android:layout_height="30dp"  android:layout_gravity="center" android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="获取验证码" android:textColor="#D02090"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent" android:id="@+id/register_phone_confirm"
+            android:layout_height="wrap_content" android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp" android:layout_marginLeft="15dp"
+            android:text="确认"/>
+    </LinearLayout>
+
+    <!--email register-->
+    <LinearLayout android:orientation="vertical" android:visibility="gone"
+        android:layout_width="match_parent" android:id="@+id/register_layout2"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="match_parent" android:id="@+id/register_emailBox"
+            android:layout_height="30dp" android:hint="输入邮箱："
+            android:layout_marginTop="20dp" android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" android:background="@drawable/edittext_bg"/>
+        <EditText
+            android:layout_width="match_parent" android:id="@+id/register_emailBox_password1"
+            android:layout_height="30dp" android:hint="密码："
+            android:layout_marginTop="10dp" android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" android:background="@drawable/edittext_bg"/>
+        <EditText
+            android:layout_width="match_parent" android:id="@+id/register_emailBox_password2"
+            android:layout_height="30dp" android:hint="确认密码："
+            android:layout_marginTop="10dp" android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" android:background="@drawable/edittext_bg"/>
+        <Button
+            android:layout_width="match_parent" android:id="@+id/register_emailBox_confirm"
+            android:layout_height="wrap_content" android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp" android:layout_marginLeft="15dp"
+            android:text="确认"/>
+        </LinearLayout>
+</LinearLayout>

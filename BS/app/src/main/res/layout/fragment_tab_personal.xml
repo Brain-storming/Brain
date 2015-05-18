@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent" android:background="#FFF" android:layout_marginTop="10dp"
+        android:layout_height="80dp" android:orientation="horizontal" android:layout_marginBottom="10dp">
+        <com.example.alex.bs.wiget.CircleImageView
+            android:id="@+id/head_sculpture"
+            android:layout_width="60dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+            app:border_color="#000000" app:border_width="2dp"
+            android:layout_height="60dp"  android:layout_gravity="center_vertical" android:background="@drawable/ic_launcher"/>
+        <TextView
+            android:layout_width="match_parent" android:id="@+id/username" android:textSize="25dp"
+            android:text="Braining Storm"
+            android:layout_height="wrap_content" android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent" android:background="#FFF"
+        android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="match_parent" android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"  android:text="我的帖子" />
+            <ListView
+                android:layout_width="match_parent" android:id="@+id/personal_post_list"
+                android:layout_height="100dp"></ListView>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent" android:background="#FFF"
+        android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="match_parent" android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"  android:text="我的收藏"/>
+        <ListView
+            android:layout_width="match_parent" android:id="@+id/personal_collect_list"
+            android:layout_height="100dp"></ListView>
+    </LinearLayout>
+</LinearLayout>

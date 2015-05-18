@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout android:id="@+id/post_list_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  android:orientation="horizontal">
+        <com.example.alex.bs.wiget.CircleImageView
+            android:id="@+id/head_sculpture" android:layout_width="40dp"
+            android:layout_height="40dp" android:src="@drawable/ic_head_sculpture"
+            android:layout_marginLeft="5dp" android:layout_marginRight="10dp"
+            border_width="2dp" border_color="#000000" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:layout_width="match_parent" android:id="@+id/post_user_name" android:textSize="15dp"
+                android:layout_height="wrap_content" android:layout_marginBottom="5dp"/>
+            <TextView
+                android:layout_width="match_parent" android:id="@+id/post_time" android:textSize="9dp"
+                android:layout_height="wrap_content" android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    <TextView
+        android:layout_width="match_parent" android:id="@+id/post_title"
+        android:layout_height="wrap_content" android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent" android:id="@+id/post_context"
+        android:layout_height="wrap_content" android:textSize="15dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="right" android:layout_marginRight="15dp">
+        <ImageView
+            android:layout_width="wrap_content" android:id="@+id/post_prise" android:background="@drawable/ic_action_notify"
+            android:layout_height="wrap_content" android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="wrap_content" android:id="@+id/prise_number" android:layout_marginRight="15dp"
+            android:layout_height="match_parent"  android:textSize="9dp" android:gravity="center_vertical"/>
+        <ImageView
+            android:layout_width="wrap_content" android:id="@+id/post_comment" android:background="@drawable/ic_action_notify"
+            android:layout_height="wrap_content"  android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="wrap_content" android:id="@+id/comment_number"
+            android:layout_height="match_parent"  android:textSize="9dp" android:gravity="center_vertical" />
+    </LinearLayout>
+
+</LinearLayout>

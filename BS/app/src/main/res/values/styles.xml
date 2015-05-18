@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- the appTheme -->
+    <style parent="@style/Theme.AppCompat.Light.DarkActionBar" name="AppTheme">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <!-- ActionBar styles -->
+    <style parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse" name="MyActionBar">
+        <item name="android:background">@drawable/actionbar_background</item>
+        <item name="android:titleTextStyle">@style/MyTitleStyle</item>
+        <!-- Support library compatibility -->
+        <item name="background">@drawable/actionbar_background</item>
+        <item name="titleTextStyle">@style/MyTitleStyle</item>
+    </style>
+    <style parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title.Inverse" name="MyTitleStyle">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <!-- the registerTheme -->
+    <style parent="@style/Theme.AppCompat.Light" name="RegisterTheme">
+        <item name="android:actionBarStyle">@style/RegisterBar</item>
+        <item name="actionBarStyle">@style/RegisterBar</item>
+    </style>
+    <style parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse" name="RegisterBar">
+        <item name="android:background">@drawable/ic_register_menu_bg</item>
+        <item name="background">@drawable/ic_register_menu_bg</item>
+    </style>
+    <!-- progressBar-->
+    <style parent="@android:style/Widget.ProgressBar.Small" name="customProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/custom_progress_bar</item>
+        <item name="android:layout_width">21dip</item>
+        <item name="android:layout_height">21dip</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+</resources>
