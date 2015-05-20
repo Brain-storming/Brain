@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/biaoti_editText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="标题:"
+        android:layout_alignBottom="@+id/editText_biaoti"
+        android:layout_toLeftOf="@+id/editText_biaoti"
+        android:layout_toStartOf="@+id/editText_biaoti" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/neirong_editText"
+        android:text="内容:"
+        android:layout_below="@+id/biaoti_editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发表"
+        android:id="@+id/button_fabiao"
+        android:layout_marginBottom="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/biaoti_editText"
+        android:layout_toEndOf="@+id/biaoti_editText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:id="@+id/button_quxiao"
+        android:layout_alignTop="@+id/button_fabiao"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="63dp"
+        android:layout_marginEnd="63dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_biaoti"
+        android:text="标题~~~~"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/neirong_editText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_neirong"
+        android:layout_alignTop="@+id/neirong_editText"
+        android:layout_toRightOf="@+id/neirong_editText"
+        android:text="内容概要"
+        android:layout_alignRight="@+id/editText_biaoti"
+        android:layout_alignEnd="@+id/editText_biaoti" />
+</RelativeLayout>

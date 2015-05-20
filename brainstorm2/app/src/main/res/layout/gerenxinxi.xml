@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 首页 "
+        android:id="@+id/button_shouye3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 精品 "
+        android:id="@+id/button_jingpin3"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/button_shouye3"
+        android:layout_toEndOf="@+id/button_shouye3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 个人 "
+        android:id="@+id/button_geren3"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/button_shezhi3"
+        android:layout_toStartOf="@+id/button_shezhi3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 设置 "
+        android:id="@+id/button_shezhi3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_toRightOf="@+id/button_jingpin3"
+        android:layout_toLeftOf="@+id/button_geren3"
+        android:layout_toStartOf="@+id/button_geren3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/button_jingpin3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_marginLeft="57dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="121dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="昵称  :admin"
+        android:id="@+id/name"
+        android:layout_gravity="center"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginLeft="114dp"
+        android:layout_marginStart="114dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="等级  :level5"
+        android:id="@+id/level"
+        android:layout_below="@+id/name"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignStart="@+id/name"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/name"
+        android:layout_alignEnd="@+id/name" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的收藏"
+        android:id="@+id/shoucang_button"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/tiezi_button"
+        android:layout_alignStart="@+id/tiezi_button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的帖子"
+        android:id="@+id/tiezi_button"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/shoucang_button"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发表帖子"
+        android:id="@+id/button_fatie"
+        android:layout_below="@+id/tiezi_button"
+        android:layout_alignLeft="@+id/tiezi_button"
+        android:layout_alignStart="@+id/tiezi_button"
+        android:layout_marginTop="32dp" />
+
+</RelativeLayout>

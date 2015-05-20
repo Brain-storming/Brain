@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 首页 "
+        android:id="@+id/button_shouye4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 精品 "
+        android:id="@+id/button_jingpin4"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/button_shouye4"
+        android:layout_toEndOf="@+id/button_shouye4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 个人 "
+        android:id="@+id/button_geren4"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/button_shezhi4"
+        android:layout_toStartOf="@+id/button_shezhi4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 设置 "
+        android:id="@+id/button_shezhi4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_toRightOf="@+id/button_jingpin4"
+        android:layout_toLeftOf="@+id/button_geren4"
+        android:layout_toStartOf="@+id/button_geren4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/button_jingpin4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ON"
+        android:id="@+id/sehngyin_button"
+        android:layout_marginTop="109dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/button_geren4"
+        android:layout_alignStart="@+id/button_geren4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="账号管理"
+        android:id="@+id/user_textView"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/shengyin_textView"
+        android:layout_toLeftOf="@+id/sehngyin_button"
+        android:layout_toStartOf="@+id/sehngyin_button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="声音"
+        android:id="@+id/shengyin_textView"
+        android:layout_alignBottom="@+id/sehngyin_button"
+        android:layout_alignRight="@+id/imageButton"
+        android:layout_alignEnd="@+id/imageButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注销当前账号"
+        android:id="@+id/logoff_button"
+        android:layout_alignBottom="@+id/user_textView"
+        android:layout_alignLeft="@+id/sehngyin_button"
+        android:layout_alignStart="@+id/sehngyin_button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="消息提醒"
+        android:id="@+id/xiaoxi_textView"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/sehngyin_button"
+        android:layout_toStartOf="@+id/sehngyin_button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ON"
+        android:id="@+id/xiaoxi_button"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/logoff_button"
+        android:layout_alignStart="@+id/logoff_button" />
+
+</RelativeLayout>
